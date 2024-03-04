@@ -1,0 +1,1007 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <script src="scriptures.js"></script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>AP Physics Equation List</title>
+        <script>
+            //code
+        </script>
+    </head>
+    <body>
+        <!--Navigation Bar-->
+        <header>
+            <nav class="shadow-lg user-select-none navbar navbar-expand-md navbar-light justify-content-center">
+                <div class="container-fluid my-2">
+                    <a class="fs-5 navbar-brand" href="index.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="37" fill="currentColor" class="bi bi-usb-plug-fill align-items-top" viewBox="0 0 16 16">
+                            <path><img src="images/transistor.webp" width="30" height="37"></path>
+                        </svg>
+                        Home
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <form class="form-inline my-lg-0">
+                        <input type="text" class="dopbtn" onclick="myFunction()" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+                    </form>
+                    <div class="collapse navbar-collapse" id="navbarContent">
+                        <ul class="justify-content-center navbar-nav mx-auto order-0">
+                            <li class="nav-item"><a class="nav-link active" href="physics1.html">AP Physics 1 Equations</a></li>
+                            <li class="nav-item"><a class="nav-link active" href="physics2.html">AP Physics 2 Equations</a></li>
+                            <li class="nav-item"><a class="nav-link active" href="contents.html">AP Physics Exam Contents</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="physics1.html#Kine">Kinematics</a>
+                    <a href="physics1.html#Dyn">Dynamics</a>
+                    <a href="physics1.html#CaG">Circular Motion and Gravitational</a>
+                    <a href="physics1.html#EE">Energy</a>
+                    <a href="physics1.html#ME">Momentum</a>
+                    <a href="physics1.html#SHM">Simple Harmonic Motion</a>
+                    <a href="physics1.html#TaRM">Torque and Rotational Motion</a>
+                    <a href="physics2.html#FE">Fluids</a>
+                    <a href="physics2.html#TDE">Thermodynamics</a>
+                    <a href="physics2.html#EFFP">Electric Force, Field, and Potential</a>
+                    <a href="physics2.html#EC">Electric Circuits</a>
+                    <a href="physics2.html#MEI">Magnetism and Electromagnetic Induction</a>
+                    <a href="physics2.html#GPO">Geometric and Physical Optics</a>
+                    <a href="physics2.html#QANP">Quantum, Atomic, and Nuclear Physics</a>
+                    <a href="contents.html#Exam">Exam Content</a>
+                    <a href="contents.html#1Weight">AP1 Weighted</a>
+                    <a href="contents.html#2Weight">AP2 Weighted</a>
+                </div>
+        </header>
+        <div class="introduction">
+            <h1 class="user-select-none gradient-text-yellow">AP Physics 1 Equations</h1>
+            <h2>A full list of the Algebra-Based AP Physics 1 Equations</h2>
+            <br>
+            <h2>Sorted by Chapters</h2>
+            <br>
+            <h3>Check out the <a href="Lists.html" target="_blank" rel="noopener noreferrer">Appendix of Variables</a> for all the variables used in the AP Physics Classes</h3>
+        </div>
+        <div class="gapper" id="Kine"></div>
+        <table class="table-bordered table-striped mx-auto" style="width:75%" >
+            <thead style="background-color:#1E90FF">
+                <tr>
+
+                    <th class="thead" colspan="3">Kinematic Equations</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="trow">1.</td>
+                    <td class=contenttt>
+                        <li><math><msub><mi>V</mi><mn>f</mn></msub></math> = Final Velocity</li>
+                        <li><math><msub><mi>V</mi><mn>i</mn></msub></math> = Initial Velocity</li>
+                        <li><math><mi>a</mi></math> = Acceleration</li>
+                        <li><math><mi>t</mi></math> = Time</li>
+                    </td>
+                    <td class="equations">
+                        <math>
+                            <mrow>
+                                <mrow>
+                                    <msub>
+                                        <mi>V</mi>
+                                        <mn>f</mn>
+                                    </msub>
+                                </mrow>
+                                <mo>=</mo>
+                                <mrow>
+                                    <mi>a</mi>
+                                    <mi>t</mi>
+                                    <mo>+</mo>
+                                    <msub>
+                                        <mi>V</mi>
+                                        <mn>i</mn>
+                                    </msub>
+                                </mrow>
+                            </mrow>
+                        </math>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="trow">2.</td>
+                    <td class="contenttt">
+                        <li><math><mi>ΔX</mi></math> = Displacement</li>
+                        <li><math><msub><mi>V</mi><mn>i</mn></msub></math> = Initial Velocity</li>
+                        <li><math><mi>a</mi></math> = Acceleration</li>
+                        <li><math><mi>t</mi></math> = Time</li>
+                    </td>
+                    <td class="equations">
+                        <math>
+                            <mrow>
+                                <mrow>
+                                    <mi>ΔX</mi>
+                                </mrow>
+                                <mo>=</mo>
+                                <mrow>
+                                    <mfrac>
+                                        <mi>1</mi>
+                                        <mi>2</mi>
+                                    </mfrac>
+                                    <mi>a</mi>
+                                    <msup>
+                                        <mi>t</mi>
+                                        <mn>2</mn>
+                                    </msup>
+                                </mrow>
+                                <mo>+</mo>
+                                <mrow>
+                                    <msub>
+                                        <mi>V</mi>
+                                        <mn>i</mn>
+                                    </msub>
+                                    <mi>t</mi>
+                                </mrow>
+                            </mrow>
+                        </math>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="trow">3.</td>
+                    <td class="contenttt">
+                        <li><math><mi>ΔX</mi></math> = Displacement</li>
+                        <li><math><msub><mi>V</mi><mn>f</mn></msub></math> = Final Velocity</li>
+                        <li><math><msub><mi>V</mi><mn>i</mn></msub></math> = Initial Velocity</li>
+                        <li><math><mi>a</mi></math> = Acceleration</li>
+                    </td>
+                    <td class="equations">
+                        <math>
+                            <mrow>
+                                <msup>
+                                    <msub>
+                                        <mi>V</mi>
+                                        <mn>f</mn>
+                                    </msub>
+                                    <mn>2</mn>
+                                </msup>
+                                <mo>=</mo>
+                                <mrow>
+                                    <msup>
+                                        <msub>
+                                            <mi>V</mi>
+                                            <mn>f</mn>
+                                        </msub>
+                                        <mn>2</mn>
+                                    </msup>
+                                    <mo>+</mo>
+                                </mrow>
+                                <mrow>
+                                    <mn>2</mn>
+                                    <mi>a</mi>
+                                    <mi>ΔX</mi>
+                                </mrow>
+                            </mrow>
+                        </math>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="trow" >4.</td>
+                    <td class="contenttt">
+                        <li><math><mi>ΔX</mi></math> = Displacement</li>
+                        <li><math><msub><mi>V</mi><mn>f</mn></msub></math> = Final Velocity</li>
+                        <li><math><msub><mi>V</mi><mn>i</mn></msub></math> = Initial Velocity</li>
+                        <li><math><mi>t</mi></math> = Time</li>
+                    </td>
+                    <td class="equations">
+                        <math>
+                            <mrow>
+                                <mi>ΔX</mi>
+                            </mrow>
+                            <mo>=</mo>
+                            <mrow>
+                                <mfrac>
+                                    <mrow>
+                                        <msub>
+                                            <mi>V</mi>
+                                            <mn>i</mn>
+                                        </msub>
+                                        <mo>+</mo>
+                                        <msub>
+                                            <mi>V</mi>
+                                            <mn>f</mn>
+                                        </msub>
+                                    </mrow>
+                                    <mi>2</mi>
+                                </mfrac>
+                            </mrow>
+                            <mo>×</mo>
+                            <mi>t</mi>
+                        </math>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+        <div class="gapper" id="Dyn"></div>
+        <table class="table-bordered table-striped mx-auto" style="width:75%" >
+            <thead style="background-color:#1E90FF">
+                <tr>
+                    <th class="thead" colspan="3">Dynamics Equations</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="trow">Newton's Second Law</td>
+                    <td class="contenttt">
+                        <li><math><mi>&#8721;</mi><mi>F</mi></math> = Net Force</li>
+                        <li><math><mi>m</mi></math> = Mass</li>
+                        <li><math><mi>a</mi></math> = Acceleration</li>
+                    </td>
+                    <td class="equations">
+                        <math>
+                            <mrow>
+                                <mrow>
+                                    <mi>&#8721;</mi>
+                                    <mi>F</mi>
+                                </mrow>
+                                <mo>=</mo>
+                                <mrow>
+                                    <mi>m</mi>
+                                    <mi>a</mi>
+                                </mrow>
+                            </mrow>
+                        </math>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="trow">Force of Kinetic Friction</td>
+                    <td class="contenttt">
+                        <li><math><mi>F</mi></math> = Force</li>
+                        <li><math><mi>μ</mi></math> = Coefficient of Friction</li>
+                        <li><math><msub><mi>F</mi><mi>n</mi></msub></math> = Normal Force</li>
+                    </td>
+                    <td class="equations">
+                        <math>
+                            <mrow>
+                                <mrow>
+                                    <msub>
+                                        <mi>F</mi>
+                                        <mi>k</mi>
+                                    </msub>
+                                </mrow>
+                                <mo>=</mo>
+                                <mrow>
+                                    <msub>
+                                        <mi>μ</mi>
+                                        <mi>k</mi>
+                                    </msub>
+                                    <msub>
+                                        <mi>F</mi>
+                                        <mi>n</mi>
+                                    </msub>
+                                </mrow>
+                            </mrow>
+                        </math>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="trow">Force of Static Friction</td>
+                    <td class="contenttt">
+                        <li><math><mi>F</mi></math> = Force</li>
+                        <li><math><mi>μ</mi></math> = Coefficient of Friction</li>
+                        <li><math><msub><mi>F</mi><mi>n</mi></msub></math> = Normal Force</li>
+                    </td>
+                    <td class="equations">
+                        <math>
+                            <mrow>
+                                <mrow>
+                                    <msub>
+                                        <mi>F</mi>
+                                        <mi>s</mi>
+                                    </msub>
+                                </mrow>
+                                <mo><span>&#8804;</span></mo>
+                                <mrow>
+                                    <msub>
+                                        <mi>μ</mi>
+                                        <mi>s</mi>
+                                    </msub>
+                                    <msub>
+                                        <mi>F</mi>
+                                        <mi>n</mi>
+                                    </msub>
+                                </mrow>
+                            </mrow>
+                        </math>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="gapper" id="CaG"></div>
+        <table class="table-bordered table-striped mx-auto" style="width:75%">
+            <thead style="background-color:#1E90FF">
+                <tr>
+                    <th class="thead" colspan="3">Circular Motion and Gravitational Equations</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="trow">Gravitational Force</td>
+                    <td class="contenttt">
+                        <li><math><msub><mi>F</mi><mi>g</mi></msub></math> = Gravitational Force</li>
+                        <li><math><mi>m</mi></math> = Masses</li>
+                        <li><math><mi>G</mi></math> = <math><mn>6.67</mn><mo>×</mo><msup><mn>10</mn><mn>-11</mn></msup></math><math><msup><mi>m</mi><mn>3</mn></msup><mo>/</mo><mi>kg</mi><msup><mi>s</mi><mn>2</mn></msup></math></li>
+                        <li><math><mi>r</mi></math> = Center-to-Center Distance</li>
+                    </td>
+                    <td class="equations">
+                        <math>
+                            <mrow>
+                                <msub>
+                                    <mi>F</mi>
+                                    <mi>g</mi>
+                                </msub>
+                            </mrow>
+                            <mo>=</mo>
+                            <mrow>
+                                <mi>G</mi>
+                                <mfrac>
+                                    <mrow>
+                                        <msub>
+                                            <mi>m</mi>
+                                            <mi>1</mi>
+                                        </msub>
+                                        <msub>
+                                            <mi>m</mi>
+                                            <mi>2</mi>
+                                        </msub>
+                                    </mrow>
+                                    <msup>
+                                        <mi>r</mi>
+                                        <mn>2</mn>
+                                    </msup>
+                                </mfrac>
+                            </mrow>
+                        </math>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="trow">Gravitational Field Strength</td>
+                    <td class="contenttt">
+                        <li><math><msub><mi>F</mi><mi>g</mi></msub></math> = Gravitational Force</li>
+                        <li><math><mi>m</mi></math> = Mass</li>
+                    </td>
+                    <td class="equations">
+                        <math>
+                            <mrow>
+                                <mrow>
+                                    <mi>g</mi>
+                                </mrow>
+                                <mo>=</mo>
+                                <mrow>
+                                    <mfrac>
+                                        <msub>
+                                            <mi>F</mi>
+                                            <mi>g</mi>
+                                        </msub>
+                                        <mi>
+                                            m
+                                        </mi>
+                                    </mfrac>
+                                </mrow>
+                            </mrow>
+                        </math>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+        <div class="gapper" id="EE"></div>
+        <table class="table-bordered table-striped mx-auto" style="width:75%">
+            <thead style="background-color:#1E90FF">
+                <tr>
+                    <th class="thead" colspan="3">Energy Equations</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="trow">Work</td>
+                    <td class="contenttt">
+                        <li><math><mi>W</mi></math> = Work</li>
+                        <li><math><msub><mi>F</mi><mi>&parallel;</mi></msub></math> = Force parallel to the Direction of Motion</li>
+                        <li><math><mi>d</mi></math> = Distance</li>
+                    </td>
+                    <td class="equations">
+                        <math>
+                            <mrow>
+                                <mi>W</mi>
+                                <mo>=</mo>
+                                <mrow>
+                                    <msub>
+                                        <mi>F</mi>
+                                        <mi>&parallel;</mi>
+                                    </msub>
+                                    <mi>d</mi>
+                                </mrow>
+                            </mrow>
+                        </math>
+                    </td>
+                </tr>
+                </tr>
+        <tr>
+            <td class="trow">Kinetic Energy</td>
+            <td class="contenttt">
+                <li><math><mi>K</mi></math> = Kinetic Energy</li>
+                <li><math><mi>v</mi></math> = Velocity</li>
+                <li><math><mi>m</mi></math> = Mass</li>
+            </td>
+            <td class="equations">
+                <math>
+                    <mrow>
+                        <mi>K</mi>
+                        <mo>=</mo>
+                        <mrow>
+                            <mfrac>
+                                <mi>1</mi>
+                                <mi>2</mi>
+                            </mfrac>
+                            <mi>m</mi>
+                            <msup>
+                                <mi>v</mi>
+                                <mn>2</mn>
+                            </msup>
+                        </mrow>
+                    </mrow>
+                </math>
+            </td>
+        </tr>
+        <tr>
+            <td class="trow">Gravitational Potential Energy</td>
+            <td class="contenttt">
+                <li><math><msub><mi>ΔU</mi><mi>g</mi></msub></math> = Gravitational Potential Energy</li>
+                <li><math><mi>m</mi></math> = Mass</li>
+                <li><math><mi>g</mi></math> = Acceleration due to Gravity</li>
+                <li><math><mi>h</mi></math> = Height</li>
+            </td>
+            <td class="equations">
+                <math>
+                    <mrow>
+                        <msub>
+                            <mi>ΔU</mi>
+                            <mi>g</mi>
+                        </msub>
+                        <mo>=</mo>
+                        <mrow>
+                            <mi>m</mi>
+                            <mi>g</mi>
+                            <mi>h</mi>
+                        </mrow>
+                    </mrow>
+                </math>
+            </td>
+        </tr>
+        <tr>
+                    <td class="trow">Gravitational Potential Energy</td>
+                    <td class="contenttt">
+                        <li><math><msub><mi>U</mi><mi>G</mi></msub></math> = Gravitational Potential Energy</li>
+                        <li><math><mi>m</mi></math> = Masses</li>
+                        <li><math><mi>G</mi></math> = <math><mn>6.67</mn><mo>×</mo><msup><mn>10</mn><mn>-11</mn></msup></math><math><msup><mi>m</mi><mn>3</mn></msup><mo>/</mo><mi>kg</mi><msup><mi>s</mi><mn>2</mn></msup></math></li>
+                        <li><math><mi>r</mi></math> = Center-to-Center Distance</li>
+                    </td>
+                    <td class="equations">
+                        <math>
+                            <mrow>
+                                <mrow>
+                                    <msub>
+                                        <mi>U</mi>
+                                        <mi>G</mi>
+                                    </msub>
+                                </mrow>
+                                <mo>=</mo>
+                            <mrow>
+                                <mi>G</mi>
+                                <mfrac>
+                                    <mrow>
+                                        <msub>
+                                            <mi>m</mi>
+                                            <mi>1</mi>
+                                        </msub>
+                                        <msub>
+                                            <mi>m</mi>
+                                            <mi>2</mi>
+                                        </msub>
+                                    </mrow>
+                                        <mi>r</mi>
+                                </mfrac>
+                            </mrow>
+                            </mrow>
+                        </math>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="trow">Elastic Potential Energy</td>
+                    <td class="contenttt">
+                        <li><math><msub><mi>U</mi><mi>s</mi></msub></math> = Elastic Potential Energy</li>
+                        <li><math><mi>k</mi></math> = Spring Constant</li>
+                        <li><math><mi>x</mi></math> = Displacement</li>
+                    </td>
+                    <td class="equations">
+                        <math>
+                            <mrow>
+                                <msub>
+                                    <mi>U</mi>
+                                    <mi>s</mi>
+                                </msub>
+                            </mrow>
+                            <mo>=</mo>
+                            <mrow>
+                                <mfrac>
+                                    <mn>1</mn>
+                                    <mn>2</mn>
+                                </mfrac>
+                                <mi>k</mi>
+                                <msup>
+                                    <mi>x</mi>
+                                    <mn>2</mn>
+                                </msup>
+                            </mrow>
+                        </math>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="trow">Rotational Energy</td>
+                    <td class="contenttt">
+                        <li><math><msub><mi>K</mi><mi>r</mi></msub></math> = Rotational Energy</li>
+                        <li><math><mi>I</mi></math> = Rotational Inertia</li>
+                        <li><math><mi>ω</mi></math> = Angular Speed</li>
+                    </td>
+                    <td class="equations">
+                        <math>
+                            <mrow>
+                                <msub>
+                                    <mi>K</mi>
+                                    <mi>r</mi>
+                                </msub>
+                            </mrow>
+                            <mo>=</mo>
+                            <mrow>
+                                <mfrac>
+                                    <mn>1</mn>
+                                    <mn>2</mn>
+                                </mfrac>
+                                <mi>I</mi>
+                                <msup>
+                                    <mi>ω</mi>
+                                    <mn>2</mn>
+                                </msup>
+                            </mrow>
+                        </math>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="trow">Power</td>
+                    <td class="contenttt">
+                        <li><math><mi>P</mi></math> = Power</li>
+                        <li><math><mi>W</mi></math> = Work</li>
+                        <li><math><mi>t</mi></math> = Time</li>
+                    </td>
+                    <td class="equations">
+                        <math>
+                            <mrow>
+                                <mi>P</mi>
+                            </mrow>
+                            <mo>=</mo>
+                            <mrow>
+                                <mfrac>
+                                    <mi>W</mi>
+                                    <mi>Δt</mi>
+                                </mfrac>
+                            </mrow>
+                        </math>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="gapper" id="ME"></div>
+        <table class="table-bordered table-striped mx-auto" style="width:75%">
+            <thead style="background-color:#1E90FF">
+                <tr>
+                    <th class="thead" colspan="3">Momentum Equations</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="trow">Momentum</td>
+                    <td class="contenttt">
+                        <li><math><mi>p</mi></math> = Momentum</li>
+                        <li><math><mi>m</mi></math> = Mass</li>
+                        <li><math><mi>v</mi></math> = Velocity</li>
+                    </td>
+                    <td class="equations">
+                        <math>
+                            <mrow>
+                                <mi>p</mi>
+                            </mrow>
+                            <mo>=</mo>
+                            <mrow>
+                                <mi>m</mi>
+                                <mi>v</mi>
+                            </mrow>
+                        </math>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="trow">Impulse</td>
+                    <td class="contenttt">
+                        <li><math><mi>J</mi></math> = Impulse</li>
+                        <li><math><mi>F</mi></math> = Force</li>
+                        <li><math><mi>t</mi></math> = Time</li>
+                    </td>
+                    <td class="equations">
+                        <math>
+                            <mrow>
+                                <mi>Δp</mi>
+                                <mo>=</mo>
+                                <mi>J</mi>
+                                <mo>=</mo>
+                                <mrow>
+                                    <mi>F</mi>
+                                    <mi>Δt</mi>
+                                </mrow>
+                            </mrow>
+                        </math>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+        <div class="gapper" id="SHM"></div>
+        <table class="table-bordered table-striped mx-auto" style="width:75%">
+            <thead style="background-color:#1E90FF">
+                <tr>
+                    <th class="thead" colspan="3">Simple Harmonic Motion Equations</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="trow">Hooke's Law</td>
+                    <td class="contenttt">
+                        <li><math><msub><mi>F</mi><mi>s</mi></msub></math> = Spring Force</li>
+                        <li><math><mi>k</mi></math> = Spring Constant</li>
+                        <li><math><mi>x</mi></math> = Displacement</li>
+                    </td>
+                    <td class="equations">
+                        <math>
+                            <mrow>
+                                <msub>
+                                    <mi>F</mi>
+                                    <mi>s</mi>
+                                </msub>
+                            </mrow>
+                            <mo>=</mo>
+                            <mrow>
+                                <mi>k</mi>
+                                <mi>x</mi>
+                            </mrow>
+                        </math>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="trow">Period of an Oscillating Spring</td>
+                    <td class="contenttt">
+                        <li><math><mi>T</mi></math> = Period</li>
+                        <li><math><mi>m</mi></math> = Mass</li>
+                        <li><math><mi>k</mi></math> = Spring Constant</li>
+                    </td>
+                    <td class="equations">
+                        <math>
+                            <mrow>
+                                <msub>
+                                    <mi>T</mi>
+                                    <mi>s</mi>
+                                </msub>
+
+                            </mrow>
+                            <mo>=</mo>
+                            <mrow>
+                                <mn>2</mn>
+                                <mi>π</mi>
+                                <msqrt>
+                                    <mfrac>
+                                        <mi>m</mi>
+                                        <mi>k</mi>
+                                    </mfrac>
+                                </msqrt>
+                            </mrow>
+                        </math>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="trow">Period of a Swinging Pendulum</td>
+                    <td class="contenttt">
+                        <li><math><mi>T</mi></math> = Period</li>
+                        <li><math><mi>l</mi></math> = Length of Pendulum</li>
+                        <li><math><mi>g</mi></math> = Acceleration due to Gravity</li>
+                    </td>
+                    <td class="equations">
+                        <math>
+                            <mrow>
+                                <msub>
+                                    <mi>T</mi>
+                                    <mi>p</mi>
+                                </msub>
+                            </mrow>
+                            <mo>=</mo>
+                            <mrow>
+                                <mn>2</mn>
+                                <mi>π</mi>
+                                <msqrt>
+                                    <mfrac>
+                                        <mi>l</mi>
+                                        <mi>g</mi>
+                                    </mfrac>
+                                </msqrt>
+                            </mrow>
+                        </math>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="trow">Position of a Mass on an Oscillating Spring</td>
+                    <td class="contenttt">
+                        <li><math><mi>x</mi></math> = Position</li>
+                        <li><math><mi>A</mi></math> = Amplitude</li>
+                        <li><math><mi>ω</mi></math> = Angular Speed</li>
+                        <li><math><mi>t</mi></math> = Time</li>
+                    </td>
+                    <td class="equations">
+                        <math>
+                            <mrow>
+                                <mi>x</mi>
+                            </mrow>
+                            <mo>=</mo>
+                            <mrow>
+                                <mi>A</mi>
+                                <mi>sin</mi>
+                                <mo>(</mo>
+                                <mi>ω</mi>
+                                <mi>t</mi>
+                                <mo>)</mo>
+                            </mrow>
+                        </math>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="gapper" id="TaRM"></div>
+        <table class="table-bordered table-striped mx-auto" style="width:75%">
+            <thead style="background-color:#1E90FF">
+                <tr>
+                    <th class="thead" colspan="3">Torque and Rotational Motion</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="trow">1. Angular Kinematic Equation</td>
+                    <td class="contenttt">
+                        <li><math><mi>θ</mi></math> = Angular Displacement</li>
+                        <li><math><msub><mi>ω</mi><mn>i</mn></msub></math> = Initial Angular Speed</li>
+                        <li><math><mi>α</mi></math> = Angular Acceleration</li>
+                        <li><math><mi>t</mi></math> = Time</li>
+                    </td>
+                    <td class="equations">
+                        <math>
+                            <mrow>
+                                <mrow>
+                                    <mi>θ</mi>
+                                </mrow>
+                                <mo>=</mo>
+                                <mrow>
+                                    <mfrac>
+                                        <mi>1</mi>
+                                        <mi>2</mi>
+                                    </mfrac>
+                                    <mi>α</mi>
+                                    <msup>
+                                        <mi>t</mi>
+                                        <mn>2</mn>
+                                    </msup>
+                                </mrow>
+                                <mo>+</mo>
+                                <mrow>
+                                    <msub>
+                                        <mi>ω</mi>
+                                        <mn>i</mn>
+                                    </msub>
+                                    <mi>t</mi>
+                                </mrow>
+                            </mrow>
+                        </math>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="trow">2. Angular Kinematic Equation</td>
+                    <td class="contenttt">
+                        <li><math><msub><mi>ω</mi><mn>f</mn></msub></math> = Final Angular Speed</li>
+                        <li><math><msub><mi>ω</mi><mn>i</mn></msub></math> = Initial Angular Speed</li>
+                        <li><math><mi>α</mi></math> = Angular Acceleration</li>
+                        <li><math><mi>t</mi></math> = Time</li>
+                    </td>
+                    <td class="equations">
+                        <math>
+                            <mrow>
+                                <mrow>
+                                    <msub>
+                                        <mi>ω</mi>
+                                        <mn>f</mn>
+                                    </msub>
+                                </mrow>
+                                <mo>=</mo>
+                                <mrow>
+                                    <mi>α</mi>
+                                    <mi>t</mi>
+                                    <mo>+</mo>
+                                    <msub>
+                                        <mi>ω</mi>
+                                        <mn>i</mn>
+                                    </msub>
+                                </mrow>
+                            </mrow>
+                        </math>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="trow">3. Angular Kinematic Equation</td>
+                    <td class="contenttt">
+                        <li><math><msub><mi>ω</mi><mn>f</mn></msub></math> = Final Angular Speed</li>
+                        <li><math><msub><mi>ω</mi><mn>i</mn></msub></math> = Initial Angular Speed</li>
+                        <li><math><mi>α</mi></math> = Angular Acceleration</li>
+                        <li><math><mi>θ</mi></math> = Angular Displacement</li>
+                    </td>
+                    <td class="equations">
+                        <math>
+                            <mrow>
+                                <msup>
+                                    <msub>
+                                        <mi>ω</mi>
+                                        <mn>f</mn>
+                                    </msub>
+                                    <mn>2</mn>
+                                </msup>
+                                <mo>=</mo>
+                                <mrow>
+                                    <msup>
+                                        <msub>
+                                            <mi>ω</mi>
+                                            <mn>f</mn>
+                                        </msub>
+                                        <mn>2</mn>
+                                    </msup>
+                                    <mo>+</mo>
+                                </mrow>
+                                <mrow>
+                                    <mn>2</mn>
+                                    <mi>α</mi>
+                                    <mi>θ</mi>
+                                </mrow>
+                            </mrow>
+                        </math>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="trow">Centripetal Acceleration</td>
+                    <td class="contenttt">
+                        <li><math><msub><mi>a</mi><mi>c</mi></msub></math> = Centripetal Acceleration</li>
+                        <li><math><mi>v</mi></math> = Velocity</li>
+                        <li><math><mi>r</mi></math> = Radius</li>
+                    </td>
+                    <td class="equations">
+                        <math>
+                            <mrow>
+                                <msub>
+                                    <mi>a</mi>
+                                    <mi>c</mi>
+                                </msub>
+                            </mrow>
+                            <mo>=</mo>
+                            <mrow>
+                                <mfrac>
+                                    <msup>
+                                        <mi>v</mi>
+                                        <mn>2</mn>
+                                    </msup>
+                                    <mi>r</mi>
+                                </mfrac>
+                            </mrow>
+                        </math>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="trow">Torque</td>
+                    <td class="contenttt">
+                        <li><math><mi>τ</mi></math> = Torque</li>
+                        <li><math><msub><mi>r</mi><mi>&#8869;</mi></msub></math> = Radius perpendicular to the Force</li>
+                        <li><math><mi>F</mi></math> = Force</li>
+                    </td>
+                    <td class="equations">
+                        <math>
+                            <mrow>
+                                <mi>τ</mi>
+                            </mrow>
+                            <mo>=</mo>
+                            <mrow>
+                                <msub>
+                                    <mi>r</mi>
+                                    <mi>&#8869;</mi>
+                                </msub>
+                                <mi>F</mi>
+                            </mrow>
+                        </math>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="trow">Angular Acceleration</td>
+                    <td class="contenttt">
+                        <li><math><mi>α</mi></math> = Angular Acceleration</li>
+                        <li><math><mi>&#8721;</mi><mi>τ</mi></math> = Net Torque</li>
+                        <li><math><mi>I</mi></math> = Rotational Inertia</li>
+                    </td>
+                    <td class="equations">
+                        <math>
+                            <mrow>
+                                <mi>α</mi>
+                            </mrow>
+                            <mo>=</mo>
+                            <mrow>
+                                <mfrac>
+                                    <mrow>
+                                        <mi>&#8721;</mi>
+                                        <mi>τ</mi>
+                                    </mrow>
+                                    <mi>I</mi>
+                                </mfrac>
+                            </mrow>
+                        </math>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="trow">Angular Momentum</td>
+                    <td class="contenttt">
+                        <li><math><mi>L</mi></math> = Angular Momentum</li>
+                        <li><math><mi>I</mi></math> = Rotational Inertia</li>
+                        <li><math><mi>ω</mi></math> = Angular Speed</li>
+                    </td>
+                    <td class="equations">
+                        <math>
+                            <mrow>
+                                <mi>L</mi>
+                            </mrow>
+                            <mo>=</mo>
+                            <mrow>
+                                <mi>I</mi>
+                                <mi>ω</mi>
+                            </mrow>
+                        </math>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="trow">Angular Impulse</td>
+                    <td class="contenttt">
+                        <li><math><mi>ΔL</mi></math> = Angular Impulse</li>
+                        <li><math><mi>τ</mi></math> = Torque</li>
+                        <li><math><mi>t</mi></math> = Time</li>
+                    </td>
+                    <td class="equations">
+                        <math>
+                            <mrow>
+                                <mi>ΔL</mi>
+                            </mrow>
+                            <mo>=</mo>
+                            <mrow>
+                                <mi>τ</mi>
+                                <mi>Δt</mi>
+                            </mrow>
+                        </math>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
