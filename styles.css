@@ -188,7 +188,7 @@ form-inline{
   display: block;
   width: 100%;
   height: auto;
-  animation: mymove 1s;
+  animation: mymove 5s;
   background-color: transparent;
 }
 
